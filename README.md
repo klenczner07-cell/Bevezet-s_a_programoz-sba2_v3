@@ -1,4 +1,4 @@
-# Bevezet-s_a_programoz-sba2_v3
+# Bevezetés_a_programozásba2_v3
 
 Mit változtattam v2-hez képest:
 - nyertE() javítva: mind a 4 irány vizsgálva (0,1), (1,0), (1,1), (1,-1)
