@@ -1,1 +1,10 @@
 # Bevezet-s_a_programoz-sba2_v3
+
+Mit változtattam v2-hez képest:
+- nyertE() javítva: mind a 4 irány vizsgálva (0,1), (1,0), (1,1), (1,-1)
+- JatekMester::teleE() megvizsgálja, hogy minden mező foglalt-e
+- JatekMester::vege()  nyertes VAGY döntetlen esetén igaz
+- lepesKiserlet() mostantól vege() esetón visszatór false-szal, tehát
+  a befejezett játékba nem lehet tovébb lépni
+- Tabla::handle() ellenorzi _jm->vege()-t, nem fogad kattintást vége után
+- Az állapotsor helyesen írja ki "Döntetlen!"-t teli tábla esetén
